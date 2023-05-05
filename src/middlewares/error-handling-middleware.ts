@@ -8,8 +8,14 @@ export function handleApplicationErrors(
   res: Response,
   _next: NextFunction,
 ) {
-  if (err.name === 'ConflictError' || err.name === 'InvalidEmailError') {
+  if (err.name === 'ConflictError' || err.name === 'DuplicatedEmailError') {
     return res.status(httpStatus.CONFLICT).send({
+      message: err.message,
+    });
+  }
+
+  if (err.name === 'InvalidEmailError') {
+    return res.status(httpStatus.BAD_REQUEST).send({
       message: err.message,
     });
   }
