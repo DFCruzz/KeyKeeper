@@ -1,5 +1,6 @@
 export * from "./conflict-error"
 export * from "./duplicated-email-error"
+export * from "./duplicated-title-error"
 export * from "./forbidden-error"
 export * from "./invalid-data-error"
 export * from "./invalid-email-error"

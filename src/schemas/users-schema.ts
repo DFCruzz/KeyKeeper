@@ -1,7 +1,7 @@
 import Joi from 'joi';
-import { User } from '@prisma/client';
+import { CreateUserParams } from '@/services/users- service';
 
-export const createUserSchema = Joi.object<User>({
+export const createUserSchema = Joi.object<CreateUserParams>({
   email: Joi.string().email().required(),
   password: Joi.string().min(10).required(),
 });
