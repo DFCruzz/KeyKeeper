@@ -13,5 +13,4 @@ credentialRouter
     .post("/", validateBody(createCredentialSchema), credentialController.postCredential)
     .delete("/:id", credentialController.deleteCredential)
 
-
-
+export { credentialRouter }
