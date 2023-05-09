@@ -4,9 +4,7 @@ import { User, Network } from "@prisma/client";
 import Cryptr from "cryptr"
 import { prisma } from "@/config";
 
-
 const cryptr = new Cryptr(`${process.env.CRYPTR_KEY}`)
-
 
 export async function createNetwork(user?: User): Promise<Network> {
     const incomingUser = user || (await createUser());
