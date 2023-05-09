@@ -8,7 +8,7 @@ export function handleApplicationErrors(
   res: Response,
   _next: NextFunction,
 ) {
-  if (err.name === 'ConflictError' || err.name === 'DuplicatedEmailError') {
+  if (err.name === 'ConflictError' || err.name === 'DuplicatedEmailError' || err.name === 'DuplicatedTitleError') {
     return res.status(httpStatus.CONFLICT).send({
       message: err.message,
     });

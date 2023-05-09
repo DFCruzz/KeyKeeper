@@ -5,7 +5,7 @@ import { signInSchema } from '@/schemas/authentication-schemas';
 describe('signInSchema', () => {
   const generateValidInput = () => ({
     email: faker.internet.email(),
-    password: faker.internet.password(6),
+    password: faker.internet.password(10),
   });
 
   describe('when email is not valid', () => {
