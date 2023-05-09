@@ -49,7 +49,7 @@ async function deleteNetwork(req: AuthenticatedRequest, res: Response, next: Nex
     const id = Number(req.params.id)
 
     try {
-        const network = await credentialService.deleteCredential(id, userId)
+        const network = await networkService.deleteNetwork(id, userId)
         return res.sendStatus(httpStatus.OK)
 
     } catch (error) {

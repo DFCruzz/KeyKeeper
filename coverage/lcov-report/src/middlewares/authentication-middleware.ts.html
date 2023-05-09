@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">25% </span>
+                <span class="strong">95% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>5/20</span>
+                <span class='fraction'>19/20</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">66.66% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/3</span>
+                <span class='fraction'>2/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">29.41% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/17</span>
+                <span class='fraction'>17/17</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -104,39 +104,39 @@
 <a name='L39'></a><a href='#L39'>39</a>
 <a name='L40'></a><a href='#L40'>40</a>
 <a name='L41'></a><a href='#L41'>41</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">46x</span>
+<span class="cline-any cline-yes">46x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-yes">38x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-yes">38x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">30x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">22x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">22x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">24x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -150,33 +150,33 @@ import * as jwt from 'jsonwebtoken';
 import { unauthorizedError } from '@/errors';
 import { prisma } from '@/config';
 &nbsp;
-export async function <span class="fstat-no" title="function not covered" >authenticateToken(</span>req: AuthenticatedRequest, res: Response, next: NextFunction) {
-  const authHeader = <span class="cstat-no" title="statement not covered" >req.header('Authorization');</span>
-<span class="cstat-no" title="statement not covered" >  <span class="missing-if-branch" title="if path not taken" >I</span>if (!authHeader) <span class="cstat-no" title="statement not covered" >return generateUnauthorizedResponse(res);</span></span>
+export async function authenticateToken(req: AuthenticatedRequest, res: Response, next: NextFunction) {
+  const authHeader = req.header('Authorization');
+  if (!authHeader) return generateUnauthorizedResponse(res);
 &nbsp;
-  const token = <span class="cstat-no" title="statement not covered" >authHeader.split(' ')[1];</span>
-<span class="cstat-no" title="statement not covered" >  <span class="missing-if-branch" title="if path not taken" >I</span>if (!token) <span class="cstat-no" title="statement not covered" >return generateUnauthorizedResponse(res);</span></span>
+  const token = authHeader.split(' ')[1];
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (!token) <span class="cstat-no" title="statement not covered" >return generateUnauthorizedResponse(res);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  try {</span>
-    const { userId } = <span class="cstat-no" title="statement not covered" >jwt.verify(token, process.env.JWT_SECRET) as JWTPayload;</span>
+  try {
+    const { userId } = jwt.verify(token, process.env.JWT_SECRET) as JWTPayload;
 &nbsp;
-    const session = <span class="cstat-no" title="statement not covered" >await prisma.session.findFirst({</span>
+    const session = await prisma.session.findFirst({
       where: {
         token,
       },
     });
-<span class="cstat-no" title="statement not covered" >    <span class="missing-if-branch" title="if path not taken" >I</span>if (!session) <span class="cstat-no" title="statement not covered" >return generateUnauthorizedResponse(res);</span></span>
+    if (!session) return generateUnauthorizedResponse(res);
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    req.userId = userId;</span>
+    req.userId = userId;
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    return next();</span>
+    return next();
   } catch (err) {
-<span class="cstat-no" title="statement not covered" >    return generateUnauthorizedResponse(res);</span>
+    return generateUnauthorizedResponse(res);
   }
 }
 &nbsp;
-function <span class="fstat-no" title="function not covered" >generateUnauthorizedResponse(</span>res: Response) {
-<span class="cstat-no" title="statement not covered" >  res.status(httpStatus.UNAUTHORIZED).send(unauthorizedError());</span>
+function generateUnauthorizedResponse(res: Response) {
+  res.status(httpStatus.UNAUTHORIZED).send(unauthorizedError());
 }
 &nbsp;
 export type AuthenticatedRequest = Request &amp; JWTPayload;
@@ -190,7 +190,7 @@ type JWTPayload = {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-05-09T14:02:03.190Z
+                at 2023-05-09T17:20:47.671Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

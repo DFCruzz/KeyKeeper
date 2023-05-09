@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683640923223" clover="3.2.0">
-  <project timestamp="1683640923223" name="All files">
-    <metrics statements="341" coveredstatements="194" conditionals="36" coveredconditionals="6" methods="69" coveredmethods="22" elements="446" coveredelements="222" complexity="0" loc="341" ncloc="341" packages="23" files="42" classes="42"/>
+<coverage generated="1683652847711" clover="3.2.0">
+  <project timestamp="1683652847711" name="All files">
+    <metrics statements="341" coveredstatements="286" conditionals="37" coveredconditionals="23" methods="69" coveredmethods="50" elements="447" coveredelements="359" complexity="0" loc="341" ncloc="341" packages="23" files="42" classes="42"/>
     <package name="src">
       <metrics statements="24" coveredstatements="18" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="2"/>
       <file name="app.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/app.ts">
         <metrics statements="19" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="14" count="4" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="25" count="4" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
-        <line num="29" count="4" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="33" count="4" type="stmt"/>
+        <line num="33" count="7" type="stmt"/>
       </file>
       <file name="server.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/server.ts">
         <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -39,34 +39,34 @@
       <metrics statements="13" coveredstatements="12" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
       <file name="database.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/config/database.ts">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="1" count="6" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="8" count="6" type="stmt"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
       </file>
       <file name="envs.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/config/envs.ts">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="6" type="stmt"/>
-        <line num="2" count="6" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="6" count="10" type="cond" truecount="1" falsecount="1"/>
-        <line num="12" count="10" type="stmt"/>
-        <line num="13" count="10" type="stmt"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="6" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="16" type="stmt"/>
+        <line num="13" count="16" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/config/index.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="6" type="stmt"/>
-        <line num="2" count="6" type="stmt"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
       </file>
     </package>
     <package name="src.controllers.authentication-controller">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/controllers/authentication-controller/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
         <line num="6" count="5" type="stmt"/>
         <line num="8" count="5" type="stmt"/>
         <line num="9" count="5" type="stmt"/>
@@ -75,188 +75,188 @@
       </file>
     </package>
     <package name="src.controllers.credentials-controller">
-      <metrics statements="27" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <metrics statements="27" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/controllers/credentials-controller/index.ts">
-        <metrics statements="27" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <metrics statements="27" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="59" count="4" type="stmt"/>
-        <line num="66" count="4" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="59" count="7" type="stmt"/>
+        <line num="66" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.controllers.network-controller">
-      <metrics statements="28" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <metrics statements="28" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/controllers/network-controller/index.ts">
-        <metrics statements="28" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <metrics statements="28" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
         <line num="53" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="60" count="4" type="stmt"/>
-        <line num="67" count="4" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="60" count="7" type="stmt"/>
+        <line num="67" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.controllers.users-controller">
-      <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/controllers/users-controller/index.ts">
-        <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.errors">
-      <metrics statements="30" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="3"/>
+      <metrics statements="30" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="6"/>
       <file name="conflict-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/conflict-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="duplicated-email-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/duplicated-email-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
       <file name="duplicated-title-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/duplicated-title-error.ts">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="forbidden-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/forbidden-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/index.ts">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
       </file>
       <file name="invalid-credentials-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/invalid-credentials-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
       </file>
       <file name="invalid-data-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/invalid-data-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
       </file>
       <file name="invalid-email-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/invalid-email-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="not-found-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/not-found-error.ts">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
       </file>
       <file name="request-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/request-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="unauthorized-error.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/errors/unauthorized-error.ts">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="24" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
-      <metrics statements="44" coveredstatements="17" conditionals="13" coveredconditionals="2" methods="8" coveredmethods="4"/>
+      <metrics statements="44" coveredstatements="35" conditionals="14" coveredconditionals="9" methods="8" coveredmethods="7"/>
       <file name="authentication-middleware.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/middlewares/authentication-middleware.ts">
-        <metrics statements="17" coveredstatements="5" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="23" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
+        <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="38" type="stmt"/>
+        <line num="13" count="38" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="38" type="stmt"/>
+        <line num="16" count="38" type="stmt"/>
+        <line num="18" count="30" type="stmt"/>
+        <line num="23" count="30" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="22" type="stmt"/>
+        <line num="27" count="22" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="34" count="24" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/middlewares/error-handling-middleware.ts">
-        <metrics statements="16" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="11" count="0" type="cond" truecount="0" falsecount="3"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="17" count="0" type="cond" truecount="0" falsecount="1"/>
+        <metrics statements="16" coveredstatements="8" conditionals="9" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="11" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="17" count="9" type="cond" truecount="0" falsecount="1"/>
         <line num="18" count="0" type="stmt"/>
-        <line num="23" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="9" type="cond" truecount="0" falsecount="1"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="29" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="30" count="0" type="stmt"/>
+        <line num="29" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="9" type="stmt"/>
         <line num="35" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="36" count="0" type="stmt"/>
         <line num="41" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -266,142 +266,142 @@
       </file>
       <file name="validation-middleware.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/middlewares/validation-middleware.ts">
         <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="7" count="16" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="28" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="15" count="16" type="stmt"/>
-        <line num="16" count="7" type="stmt"/>
-        <line num="20" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="5" type="stmt"/>
-        <line num="23" count="5" type="stmt"/>
+        <line num="15" count="28" type="stmt"/>
+        <line num="16" count="21" type="stmt"/>
+        <line num="20" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="23" count="34" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.credentials-repository">
-      <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/repositories/credentials-repository/index.ts">
-        <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="45" count="4" type="stmt"/>
-        <line num="53" count="4" type="stmt"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="45" count="7" type="stmt"/>
+        <line num="53" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.network-repository">
-      <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/repositories/network-repository/index.ts">
-        <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
+        <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
-        <line num="45" count="4" type="stmt"/>
-        <line num="53" count="4" type="stmt"/>
+        <line num="45" count="7" type="stmt"/>
+        <line num="53" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.session-repository">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/repositories/session-repository/index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="4" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
         <line num="5" count="5" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
-        <line num="14" count="4" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.users-repository">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/repositories/users-repository/index.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="5" count="12" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.routers">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/routers/index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.routers.authentication-router">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/routers/authentication-router/index.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.routers.credentials-router">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/routers/credentials-router/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.routers.network-router">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/routers/network-router/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.routers.users-router">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/routers/users-router/index.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.schemas">
       <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="authentication-schemas.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/schemas/authentication-schemas.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
       </file>
       <file name="credentials-schema.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/schemas/credentials-schema.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
       <file name="network-schema.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/schemas/network-schema.ts">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -410,20 +410,20 @@
       </file>
       <file name="users-schema.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/schemas/users-schema.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.services.authorization-service">
       <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/services/authorization-service/index.ts">
         <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
         <line num="10" count="9" type="stmt"/>
         <line num="12" count="9" type="stmt"/>
         <line num="14" count="7" type="stmt"/>
@@ -437,90 +437,90 @@
         <line num="38" count="5" type="stmt"/>
         <line num="42" count="7" type="stmt"/>
         <line num="43" count="7" type="cond" truecount="1" falsecount="0"/>
-        <line num="55" count="4" type="stmt"/>
-        <line num="59" count="4" type="stmt"/>
+        <line num="55" count="7" type="stmt"/>
+        <line num="59" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.services.credentials-service">
-      <metrics statements="23" coveredstatements="6" conditionals="7" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <metrics statements="23" coveredstatements="21" conditionals="7" coveredconditionals="6" methods="6" coveredmethods="5"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/services/credentials-service/index.ts">
-        <metrics statements="23" coveredstatements="6" conditionals="7" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="11" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="cond" truecount="0" falsecount="3"/>
+        <metrics statements="23" coveredstatements="21" conditionals="7" coveredconditionals="6" methods="6" coveredmethods="5"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="42" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="49" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="50" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="57" count="4" type="stmt"/>
-        <line num="64" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="49" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="50" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="57" count="7" type="stmt"/>
+        <line num="64" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.services.network-service">
-      <metrics statements="23" coveredstatements="6" conditionals="7" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <metrics statements="23" coveredstatements="12" conditionals="7" coveredconditionals="4" methods="6" coveredmethods="2"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/services/network-service/index.ts">
-        <metrics statements="23" coveredstatements="6" conditionals="7" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
+        <metrics statements="23" coveredstatements="12" conditionals="7" coveredconditionals="4" methods="6" coveredmethods="2"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="11" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="15" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="30" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="39" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="41" count="0" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
         <line num="48" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="49" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="51" count="0" type="stmt"/>
-        <line num="56" count="4" type="stmt"/>
-        <line num="63" count="4" type="stmt"/>
+        <line num="56" count="7" type="stmt"/>
+        <line num="63" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.services.users-service">
       <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="index.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/services/users-service/index.ts">
         <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="11" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="21" count="4" type="stmt"/>
-        <line num="25" count="4" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">
       <metrics statements="13" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="prisma-utils.ts" path="/home/diegolinux/workspace/projetos-driven/projeto-drivenpass/src/utils/prisma-utils.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="4" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
         <line num="2" count="5" type="stmt"/>
         <line num="3" count="5" type="stmt"/>
         <line num="4" count="5" type="stmt"/>

@@ -12,7 +12,7 @@ export async function createCredential(user?: User): Promise<Credential> {
     
     return prisma.credential.create({
         data: {
-          title: faker.lorem.sentence(),
+          title: faker.lorem.words(),
           url: faker.internet.url(),
           username: faker.internet.userName(),
           password: encryptedPassword,
