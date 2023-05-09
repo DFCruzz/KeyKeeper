@@ -4,8 +4,8 @@ import { createUser as createUserSeed } from '../factories/users-factory'
 import { prisma } from '@/config';
 import { init } from '@/app';
 import { cleanDb } from '../helpers';
-import userService from './users- service';
 import { duplicatedEmailError } from '@/errors';
+import userService from '@/services/users-service';
 
 beforeAll(async () => {
   await init();

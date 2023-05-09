@@ -5,10 +5,10 @@ import { prisma } from '@/config';
 import { createUser } from './factories/users-factory';
 
 export async function cleanDb() {
-    await prisma.user.deleteMany({});
     await prisma.session.deleteMany({});
     await prisma.credential.deleteMany({});
     await prisma.network.deleteMany({});
+    await prisma.user.deleteMany({});
 
 }
 

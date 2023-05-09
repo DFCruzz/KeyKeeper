@@ -1,5 +1,5 @@
 import { Response, Request, NextFunction } from "express";
-import userService from "@/services/users- service";
+import userService from "@/services/users-service";
 import httpStatus from "http-status";
 
 async function createNewUser(req: Request, res: Response, next: NextFunction) {

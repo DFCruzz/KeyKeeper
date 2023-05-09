@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker';
 import { init } from '@/app';
 import { prisma } from '@/config';
-import authenticationService from './authorization-service';
+import authenticationService from '@/services/authorization-service';
 import { invalidCredentialsError } from '@/errors';
 import { cleanDb } from '../helpers';
 import { createUser } from '../factories/users-factory';
