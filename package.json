@@ -34,7 +34,6 @@
   },
   "homepage": "https://github.com/DFCruzz/KeyKeeper#readme",
   "dependencies": {
-    "@brazilian-utils/brazilian-utils": "^1.0.0-rc.12",
     "@prisma/client": "^4.13.0",
     "@types/axios": "^0.14.0",
     "axios": "^1.4.0",
