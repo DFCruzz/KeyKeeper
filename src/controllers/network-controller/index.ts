@@ -1,6 +1,5 @@
 import { Response, NextFunction } from "express";
 import { AuthenticatedRequest } from "@/middlewares/authentication-middleware";
-import credentialService from "@/services/credentials-service";
 import httpStatus from "http-status";
 import networkService from "@/services/network-service";
 

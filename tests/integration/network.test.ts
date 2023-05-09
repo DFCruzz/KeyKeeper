@@ -134,10 +134,11 @@ describe('POST /network', () => {
                 const user = await createUser();
                 const token = await generateValidToken(user);
                 const network1 = generateValidBody();
-
                 const network2 = await createNetwork(user);
 
                 network1.title = network2.title;
+
+                console.log(network1)
 
                 const response = await server.post(`/network`).send(network1).set('Authorization', `Bearer ${token}`);
 
@@ -148,6 +149,8 @@ describe('POST /network', () => {
                 const user = await createUser();
                 const token = await generateValidToken(user);
                 const network = generateValidBody();
+
+                console.log(network)
 
                 const response = await server.post(`/network`).send(network).set('Authorization', `Bearer ${token}`);
                 expect(response.status).toBe(httpStatus.CREATED);

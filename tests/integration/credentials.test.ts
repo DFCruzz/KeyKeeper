@@ -104,7 +104,7 @@ describe('POST /credentials', () => {
         const response = await server.post('/credentials').set('Authorization', `Bearer ${token}`);
 
         expect(response.status).toBe(httpStatus.UNAUTHORIZED);
-    });Credential
+    });
 
     describe('when token is valid', () => {
         it('should respond with status 400 if body is not found', async () => {

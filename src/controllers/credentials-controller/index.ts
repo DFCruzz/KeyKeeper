@@ -1,4 +1,4 @@
-import { Response, Request, NextFunction } from "express";
+import { Response, NextFunction } from "express";
 import { AuthenticatedRequest } from "@/middlewares/authentication-middleware";
 import credentialService from "@/services/credentials-service";
 import httpStatus from "http-status";

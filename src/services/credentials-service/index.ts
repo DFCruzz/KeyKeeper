@@ -1,6 +1,6 @@
 import Cryptr from "cryptr"
 import credentialRepository from "@/repositories/credentials-repository"
-import { Credential, Prisma } from "@prisma/client"
+import { Credential } from "@prisma/client"
 import { duplicatedTitleError, notFoundError, unauthorizedError } from "@/errors"
 
 const cryptr = new Cryptr(`${process.env.CRYPTR_KEY}`)
