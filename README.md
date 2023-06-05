@@ -33,7 +33,7 @@ npm run dev
  ```
 npm run test:migration run
 ```
-E carregue a aplicação para desenvolvimento
+Carregue o ambiente de teste
 ```
 npm run test:watch
 ```
