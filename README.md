@@ -1,7 +1,7 @@
 <h1 align=center>API KeyKeeper</h1>
 
 ## Descrição
-KeyKeeper é uma API que permite usuários guardar diversos logins e senhas em um unico lugar sob uma unica senha. 
+KeyKeeper é uma API que permite usuários guardar diversos logins e senhas em um único lugar sob uma única senha. 
 
 ## Funcionalidades
 - Armazenamento dos dados em banco de dados SQL (PostgreSQL)
@@ -9,7 +9,7 @@ KeyKeeper é uma API que permite usuários guardar diversos logins e senhas em u
   - Usuários podem inserir e deletar nomes de redes e suas senhas (tabela Network)
   - Também inserir e deletar seus logins e senhas, junto do site/aplicativo em que são utilizados (tabela Credentials)
 - Dados armazenados em banco de forma encriptada
-- Aplicação construida utilizando arquitetura em camadas(Services, Controllers e Routers)
+- Aplicação construída utilizando arquitetura em camadas(Services, Controllers e Routers)
 - Validação de novas entradas utilizando middlewares e schemas
 
 
